@@ -11,7 +11,7 @@ body {
   width: 100%;
   max-width: 1800px;  
   margin: 2rem auto; 
-  background-color: #abcad8;
+  background-color: white;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@ header p {
 }
 
 .Card {
-  background-color: #d0e3eb;
+  background-color: #ffffff;
   color: #055693;
   border-radius: 8px;
   padding: 1rem;
@@ -103,6 +103,13 @@ p {
   color: #055693;
 }
 
+.scroll-strip {
+  background-color: #abcad8;
+  text-align: center;
+  padding: 1rem;
+  color: #055693;
+}
+
 @media (max-width: 1050px) {
   .page-wrapper {
     max-width: 85%;
@@ -112,13 +119,6 @@ p {
     align-items: center;
     overflow-x: visible;
   }  
-  .Card p {
-    opacity: 1;
-  }
-
-  p {
-    opacity: 0;
-  }
 
   .Card h2,
   .Card h3 {
@@ -129,6 +129,11 @@ p {
     opacity: 1;
   } 
 
+}
+
+.blue-section {
+  background-color: #6299c4;
+  padding: 2rem;
 }
 
 @media (max-width: 480px) {
